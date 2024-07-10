@@ -20,9 +20,7 @@ const QRCodeGenerator = ({ text }) => {
 
   return (
     <div className="flex justify-center items-center w-full h-full">
-      {qrCodeUrl && (
-        <img src={qrCodeUrl} alt="QR Code" className="w-[50%] h-[50%]" />
-      )}
+      {qrCodeUrl && <img src={qrCodeUrl} alt="QR Code" className="w-64 h-64" />}
     </div>
   );
 };

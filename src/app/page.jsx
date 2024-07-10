@@ -28,7 +28,7 @@ export default function Home() {
   console.log(ParseResult);
 
   return (
-    <main className="flex flex-col gap-4 py-14 items-center w-full">
+    <main className="flex flex-col gap-4 py-14 items-center w-full justify-center">
       <h1 className="font-bold text-5xl mb-4">KHQR Generator</h1>
       <QRCodeGenerator text={result.data.qr} />
     </main>
